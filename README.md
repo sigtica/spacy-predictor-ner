@@ -4,7 +4,14 @@ This is a module for spaCy Named Entity Recognition industrial-strength predicti
 
 ## Getting started
 
+### Your trained model 
 To get started, you will need a pretrained spacy 3 model. Please note that spacy 2 models may or may not be compatible with this module. Please refer to [spaCy's documentation](https://github.com/explosion/spacy-models) on loading models if you have further questions.
+
+### Dependencies
+
+Please ensure that your environment has spacy installed (please see `requirements.txt` for specific versions) and that you are running Python 3.8 or higher.
+
+### `main.py`
 
 Once you have identified your model (which should be a folder), place the folder in the same directory as the `main.py`. Then open `main.py` and make appropriate changes to use the spacy model to predict on your text of choice.
 
